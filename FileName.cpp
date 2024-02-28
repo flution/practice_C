@@ -68,6 +68,15 @@ int main() {
 
     //3-4 과제
 
+    void main() {
+        int input;
+        printf("정수를 입력하세요 : ");
+        scanf_s("%d", &input);
+        printf("%d\n", input * 5);
+
+        return 0;
+
+    }
 
 
 

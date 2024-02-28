@@ -50,18 +50,21 @@ void main() {
 	printf("b-- 처리결과 : %d\n", b--);
 	printf("b 처리결과 : %d\n", b);*/
 
-	//관계 연산자
+	//관계/논리 연산자
 
 	int a = 10;
 	int b = 11;
 	int c = 12;
 	int d = 10;
 
-	printf("a == b : %d\n", a == b);
+	/*printf("a == b : %d\n", a == b);
 	printf("a < b : %d\n", a < b);
-	printf("a > b : %d\n", a > b);
-	printf("a == b : %d\n", a == b);
+	printf("a >= c : %d\n", a >= c);
+	printf("a == d : %d\n", a == b);*/
 
+	/*printf("%d\n", !(a == d));
+	printf("%d\n", (a < b) && (a > c);
+	printf("%d\n", (a >= c) || (a == d));*/
 
 }
 
