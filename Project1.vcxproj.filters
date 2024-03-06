@@ -36,5 +36,11 @@
     <ClCompile Include="Static.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="배열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
