@@ -1,15 +1,23 @@
 #include<stdio.h>
 
-void main()
-{
-	int array[5];
-
-	for (int i = 0; i < 5; i++)
-	{
-		printf("정수를 입력하세요 : ";
-		scanf_s("%d", &array[i]);
-
+void selectOrder(int price) {
+	if (price == 100) {
+		printf("블랙커피");
+	}
+	else if (price == 200) {
+		printf("밀크커피");
+	}
+	else {
+		printf("다시 선택해주세요.");
 	}
 
-	printf("배열 요소의 출력 : %d, %d, %d, %d, %d\n", array[1], array[2], array[3], array[4], array[5])
 }
+
+int main()
+{
+	int count = 0;
+
+	printf("알맞은 금액을 넣어 주세요 : ");
+	scanf_s("%d", &count);
+	selectOrder(count);
+	}
