@@ -51,5 +51,11 @@
     <ClCompile Include="funcPointer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="여러가지포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="구조체.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
