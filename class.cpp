@@ -95,12 +95,15 @@ MousePoint& CopyObject(MousePoint& pt1, MousePoint& pt2)
 void main()
 {
 
-	MousePoint mp1(10, 20);
+	/*MousePoint mp1(10, 20);
 	MousePoint mp2(50, 60);
 	CopyObject(mp1, mp2);
 	cout << mp1.GetX() << endl;
 	cout << mp1.GetY() << endl;
 
+
+	MousePoint pt(10, 20);
+	MousePoint* pt2 = new MousePoint(10, 20);*/
 
 
 	///*MousePoint pt = { 50, 100 };*/
@@ -147,5 +150,23 @@ void main()
 	SetRect(mp1, mp2);
 	cout << mp1.GetX() << endl;
 	cout << mp1.GetY() << endl;*/
+
+	MousePoint* pArr[3];
+
+	pArr[0] = new MousePoint(10, 20); // 8바이트 만큼의 주소값 ?
+	pArr[1] = new MousePoint(100, 200); // 8바이트 다시
+	pArr[2] = new MousePoint(1000, 2000); // 8바이트 다시.
+
+	for (int i = 0; i < 3; i++)
+	{
+		cout << pArr[i]->GetX() << endl;
+		cout << pArr[i]->GetY() << endl;
+	}
+
+	for (int i = 0; i < 3; i++)
+	{
+		delete pArr[i];
+	}
+
 
 }
