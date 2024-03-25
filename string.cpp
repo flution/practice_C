@@ -5,8 +5,9 @@ using namespace std;
 
 class String
 {
-public:	
+public:
 
+	//이게 생성자다.
 	String(char ch, int nSize)
 	{
 		nLength = nSize;
@@ -16,10 +17,18 @@ public:
 		cout << "pBuffer : " << pBuffer << endl;
 
 	}
-	~String() 
+	//이게 소멸자.
+	~String()
 	{
 		delete[] pBuffer; // pBuffer가 private라 접근이 안되므로, 소멸자가 여기에 있는게 맞음. public이었다면 void main도 가능?
 	}
+	String(const String& s)
+	{
+		this->nlength = s.nLength;
+		this->pBuffer = new char[this->nLength + 1]; //새로운 메모리를 생성해라
+		strcpy_s(this->pBuffer, this->nLength + 1, str1.pBuffer); // nLenght만큼 pBuffer에 복제하라.
+	}
+
 
 	void operator=(const String& s) //대입연산자는 const(상수) String의 레퍼런스 s.
 	{
@@ -42,10 +51,14 @@ private:
 void main()
 {
 	String str1('A', 3); //객체를 생성하였다. 아. Stirng은 다 클래스 타입이구나?
-	String str2('B', 5);
-
-	
-	//str2.operator=(str1); //정식 표현
-	str2 = str1; //이것도 가능한 표현약식표현(왜냐하면 void Operator에 지정해뒀기 때문에.
+	String str2 = str1; //str2(str1); 과 같은 내용이다.
 	str2.SetData();
+
+	//여기서부턴 str2 = str1 operator를 만드는 용도
+	//String str2('B', 5);
+
+	//
+	////str2.operator=(str1); //정식 표현
+	//str2 = str1; //이것도 가능한 표현약식표현(왜냐하면 void Operator에 지정해뒀기 때문에.
+	//str2.SetData();
 };

@@ -57,7 +57,7 @@ void main()
 {
 	int arr[] = { 2,6,13,19,21,23,29,35,48,62,89,90,95,99,102,109,208,629 };
 
-	int key = 29;
+	int key = 0;
 
 	int size = sizeof(arr) / sizeof(arr[0]);
 
@@ -66,9 +66,19 @@ void main()
 	lower = 0;
 	upper = size - 1;
 
+	printf("검색할 숫자를 입력해주세요 : ");
+	scanf_s("%d", &key);
+
 	for (;;)
 	{
 		middle = (lower + upper) / 2;
+		
+		if (arr[middle] == key)
+		{
+			printf_s("검색 되었습니다.");
+			break;
+		}
+
 		if (arr[middle] > key)
 		{
 			upper = middle - 1;
@@ -76,6 +86,11 @@ void main()
 		else
 		{
 			lower = middle + 1;
+		}
+
+		if (upper <= lower) {
+			printf("검색되지 않았습니다.");
+			break;
 		}
 
 	}
