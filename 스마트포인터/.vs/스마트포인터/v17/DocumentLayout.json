@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F93DD26-E388-44A0-8B11-1FAD984DE359}|\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.vcxproj|C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\\uBA54\uBAA8\uB9AC\uB9AD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F93DD26-E388-44A0-8B11-1FAD984DE359}|\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.vcxproj|solutionrelative:\uBA54\uBAA8\uB9AC\uB9AD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F93DD26-E388-44A0-8B11-1FAD984DE359}|\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.vcxproj|C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\sharedptr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F93DD26-E388-44A0-8B11-1FAD984DE359}|\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.vcxproj|solutionrelative:sharedptr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F93DD26-E388-44A0-8B11-1FAD984DE359}|\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.vcxproj|C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\\uB798\uD37C\uD074\uB798\uC2A4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F93DD26-E388-44A0-8B11-1FAD984DE359}|\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.vcxproj|solutionrelative:\uB798\uD37C\uD074\uB798\uC2A4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F93DD26-E388-44A0-8B11-1FAD984DE359}|\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.vcxproj|C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F93DD26-E388-44A0-8B11-1FAD984DE359}|\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.vcxproj|solutionrelative:\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\uBA54\uBAA8\uB9AC\uB9AD.cpp",
+              "DocumentMoniker": "C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\\uBA54\uBAA8\uB9AC\uB9AD.cpp",
+              "RelativeDocumentMoniker": "\uBA54\uBAA8\uB9AC\uB9AD.cpp",
+              "ToolTip": "C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\\uBA54\uBAA8\uB9AC\uB9AD.cpp",
+              "RelativeToolTip": "\uBA54\uBAA8\uB9AC\uB9AD.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-09T03:06:11.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sharedptr.cpp",
+              "DocumentMoniker": "C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\sharedptr.cpp",
+              "RelativeDocumentMoniker": "sharedptr.cpp",
+              "ToolTip": "C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\sharedptr.cpp",
+              "RelativeToolTip": "sharedptr.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-09T02:30:50.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\uB798\uD37C\uD074\uB798\uC2A4.cpp",
+              "DocumentMoniker": "C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\\uB798\uD37C\uD074\uB798\uC2A4.cpp",
+              "RelativeDocumentMoniker": "\uB798\uD37C\uD074\uB798\uC2A4.cpp",
+              "ToolTip": "C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\\uB798\uD37C\uD074\uB798\uC2A4.cpp",
+              "RelativeToolTip": "\uB798\uD37C\uD074\uB798\uC2A4.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-09T01:42:50.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.cpp",
+              "DocumentMoniker": "C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.cpp",
+              "RelativeDocumentMoniker": "\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.cpp",
+              "ToolTip": "C:\\Users\\fluti\\source\\repos\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130\\\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.cpp",
+              "RelativeToolTip": "\uC2A4\uB9C8\uD2B8\uD3EC\uC778\uD130.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-09T00:40:10.702Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
